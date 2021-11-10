@@ -15,8 +15,8 @@ services:
 
   api:
     restart: always
-    build: 
-      context: ./
+    build:
+      context: .
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/src/app:delegated
